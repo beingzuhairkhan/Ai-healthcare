@@ -24,12 +24,13 @@ app.get('/', (req, res) => {
 mongoose.set('strictQuery', false);
 const mongoDB = async () => {
     try {
-        // await mongoose.connect(process.env.MONGO_URL, {
-        //      useNewUrlParser: true,
-        //      useUnifiedTopology: true,
+        await mongoose.connect(process.env.MONGO_URL);
+            //  useNewUrlParser: true,
+            //  useUnifiedTopology: true,
+            console.log("DB connected");
         // });
-        mongoose.connect('mongodb://127.0.0.1:27017/test');
-        console.log("DB connected");
+        // mongoose.connect('mongodb://127.0.0.1:27017/test');
+        // console.log("DB connected");
     } catch (error) {
         console.error("MongoDB database connection failed", error);
         

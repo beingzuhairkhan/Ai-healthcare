@@ -50,7 +50,7 @@ const DashBoard = () => {
                     <div className="flex items-center gap-4 mb-10">
                       <figure className="max-w-[200px] max-h-[200px]">
                         {/* <img src={data?.photo} className="w-full"></img> */}
-                        <img src={d} className="w-full"></img>
+                        <img src={data.photo} className="w-full rounded-[10px]"></img>
                       </figure>
                       <div>
                         <span className="py-2 bg-[#CCF0F3] text-irisBlueColor  px-4 lg:py-2 lg:px-6 rounded
@@ -68,7 +68,8 @@ const DashBoard = () => {
                           <p className="text_para text-justify mt-3 font-semibold">{data?.bio}</p>
                       </div>
                     </div>
-                    <DoctorAbout name={data.name} about={data.about} qualifications={data.qualifications} experiences={data.experiences} specialization={data.specialization} />
+                    <DoctorAbout  name={data.name} about={data.about} qualifications={data.qualifications} experiences={data.experiences} specialization={data.specialization} 
+                     />
                       
                       
                       

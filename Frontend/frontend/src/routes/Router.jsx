@@ -7,10 +7,10 @@ import SignUp from "../pages/SignUp.jsx"
 import Doctor from "../pages/doctors/Doctors.jsx"
 import DoctorDetail from "../pages/doctors/DoctorDetail.jsx"
  import Myaacount from '../Dashboard/user-account/Myaacount.jsx'
+ import Success from '../pages/Success.jsx'
 import {Routes, Route} from 'react-router-dom' 
  import DashBoard from '../Dashboard/doctor-account/DashBoard.jsx'
  import ProtectedRoute from './ProtectedRoute.jsx'
-import Success from '../pages/Success.jsx'
 const Router = () => {
   return <Routes>
     <Route path='/' element={<Home/>}/>

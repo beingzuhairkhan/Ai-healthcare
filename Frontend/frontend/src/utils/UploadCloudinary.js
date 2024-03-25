@@ -1,17 +1,16 @@
 // Ensure proper file extension (.js) and ES module syntax
+const upload_Preset = import.meta.env.VITE_UPLOAD_PRESET;
+const cloudName = import.meta.env.VITE_CLOUD_NAME;
 
-const upload_peset = import.meta.env.VITE_UPLOAD_PESET;
-const cloud_Name = import.meta.env.VITE_CLOUD_NAME;
-console.log(cloud_Name);
 const UploadCloudinary = async file => {
     const uploadData = new FormData();
 
     uploadData.append('file', file);
-    uploadData.append('upload_peset',upload_peset );
-    uploadData.append('cloudName', cloud_Name);
+    uploadData.append('upload_preset','ozvvdyq6' );
+    uploadData.append('cloudName', cloudName);
 
     try {
-        const res = await fetch(`https://api.cloudinary.com/v1_1/${cloud_Name}/image/upload`, {
+        const res = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, {
             method: 'post',
             body: uploadData
         });

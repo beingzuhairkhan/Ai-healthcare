@@ -30,14 +30,14 @@ const DoctorDetail = () => {
 } = doctor ;
   return (
     <section>
-      <div className="max-w-[1300px] px-5 max-auto">
+      <div className="max-w-[1300px] px-5 max-auto  ">
       {loading && <Loader/>}
     {error && <Error/>}
       {!loading && !error && (  <div className="grid grid-cols-2 gap-[50px]">
           <div className="md:col-span-2">
             <div className="flex items-center gap-5 mt-[50px]  justify-center px-[170px] ">
               <figure className="max-w-[200px] max-h-[200px]">
-                <img src={doctorimg2} className="w-full" ></img>
+                <img src={photo} className="w-full rounded-[10px] " ></img>
               </figure>
               <div >
                 <span className="bg-[#CCF0F3] text-irisBlueColor py-2 px-6 lg:py-4 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 font-bold rounded">
@@ -58,7 +58,7 @@ const DoctorDetail = () => {
               <button onClick={()=>setTab('about')} className={`${tab === 'about' && 'border-b border-solid border-primaryColor'}py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold`}>About</button>
               <button onClick={()=>setTab('feedback')} className={`${tab === 'feedback' && 'border-b border-solid border-primaryColor'}py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold`}>FeedBack</button>
             </div>
-            <div className="mt-[50px]">
+            <div className="mt-[50px] mb-[100px]">
               {
                 tab === 'about' && <DoctorAbout name={name} about={about} qualifications={qualifications} experiences={experiences}/>
               }

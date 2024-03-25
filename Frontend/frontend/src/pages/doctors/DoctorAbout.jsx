@@ -2,11 +2,11 @@ import React from 'react'
 
 const DoctorAbout = ({name , about , qualifications , experiences}) => {
   return (
-    <div className="px-[1px]">
+    <div className="px-[1px] mt-[100px]">
       <h3 className="text-[20px] leading-[30px] text-headingColor font-semibold flex items-center gap-2">About of
       <span className="text-irisBlueColor font-bold text-[24px] leading-9">{name}</span>
       </h3>
-      <p className="text-justify">{about}</p>
+      <p className="text-justify ">{about}</p>
       <div className="mt-[15px]">
         <h3 className="text-[20px] leading-[30px] text-headingColor font-semibold">
          Education

@@ -12,14 +12,14 @@ export const getCheckoutSession = async (req, res) => {
         const session = await stripe.checkout.sessions.create({
             payment_method_types: ['card'],
             mode: 'payment',
-            success_url: `http://localhost:5000/checkout-success`,
+            success_url: `http://127.0.0.1:5173/checkout-success`,
             cancel_url: `${req.protocol}://${req.get('host')}/doctors/${doctor._id}`,
             customer_email: user.email,
             client_reference_id: req.params.doctorId,
             line_items: [
                 {
                     price_data: {
-                        currency: 'INR',
+                         currency: 'USD',
                         unit_amount: doctor.ticketPrice * 100,
 
                         product_data: {
@@ -31,12 +31,11 @@ export const getCheckoutSession = async (req, res) => {
                     quantity: 1
                 }
             ],
-            shipping_address_collection: {
-                allowed_countries: ['IN'], // Specify the allowed countries for shipping
-                phone: user.phoneNumber, // Provide the customer's phone number
-            },
-            customer_email: user.email, // Provide the customer's email
-            customer_name: user.fullName, 
+             customer: user.stripeCustomerId, // Add customer id
+             billing_address_collection: 'required', // Request billing address
+            shipping_address_collection: { // Request shipping address
+                // allowed_countries: ['USD'] // India
+            }
         });
 
         const booking = new Booking({

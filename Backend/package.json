@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "engines": {
-    "nodes": "v16.15.1"
-=======
-    "engines":{
-      "nodes":"v16.15.1"
->>>>>>> 40110f9fe2c9480982187daba723b87719b65748
+    "node": "16.15.1"
   },
   "name": "backend",
   "version": "1.0.0",
@@ -17,7 +12,7 @@
     "dev": "nodemon your-entry-index.js"
   },
   "keywords": [],
-  "author": "Zuhair khan",
+  "author": "Zuhair Khan",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

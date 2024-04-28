@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "engines": {
     "nodes": "v16.15.1"
+=======
+    "engines":{
+      "nodes":"v16.15.1"
+>>>>>>> 40110f9fe2c9480982187daba723b87719b65748
   },
   "name": "backend",
   "version": "1.0.0",

@@ -1,21 +1,21 @@
-import React from 'react'
-import hero1 from "../assets/images/hero-img01.png"
-import hero2 from "../assets/images/hero-img02.png"
-import hero3 from "../assets/images/hero-img03.png"
-import icon1 from "../assets/images/icon01.png"
-import icon2 from "../assets/images/icon02.png"
-import icon3 from "../assets/images/icon03.png"
-import videoicon from "../assets/images/video-icon.png"
-import featureimg from "../assets/images/feature-img.png"
-import pavatar from "../assets/images/patient-avatar.png"
-import Bot from "../assets/images/bot-icon.png"
-import faq from "../assets/images/faq-img.png"
-import { Link } from "react-router-dom"
-import { BsArrowRight } from "react-icons/bs"
-import About from "../components/about/About.jsx"
-import ServiceList from "../components/services/ServicesList.jsx"
-import DoctorList from '../components/doctors/DoctorList.jsx'
-import FaqList from '../components/faq/FaqList.jsx'
+import React from "react";
+import hero1 from "../assets/images/hero-img01.png";
+import hero2 from "../assets/images/hero-img02.png";
+import hero3 from "../assets/images/hero-img03.png";
+import icon1 from "../assets/images/icon01.png";
+import icon2 from "../assets/images/icon02.png";
+import icon3 from "../assets/images/icon03.png";
+import videoicon from "../assets/images/video-icon.png";
+import featureimg from "../assets/images/feature-img.png";
+import pavatar from "../assets/images/patient-avatar.png";
+import Bot from "../assets/images/bot-icon.png";
+import faq from "../assets/images/faq-img.png";
+import { Link } from "react-router-dom";
+import { BsArrowRight } from "react-icons/bs";
+import About from "../components/about/About.jsx";
+import ServiceList from "../components/services/ServicesList.jsx";
+import DoctorList from "../components/doctors/DoctorList.jsx";
+import FaqList from "../components/faq/FaqList.jsx";
 // import Testimonial from '../components/testimonial/Testimonial.jsx'
 
 const Home = () => {
@@ -23,8 +23,8 @@ const Home = () => {
     <>
       {/* Hero section start */}
       <section>
-        <div className='hero_section pt-[60px] 2xl:h-[700px]' >
-          <div className='container'>
+        <div className="hero_section pt-[60px] 2xl:h-[700px]">
+          <div className="container">
             <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between">
               {/* hero__content */}
               <div>
@@ -33,36 +33,40 @@ const Home = () => {
                     We help patients live a healthy, longer life.
                   </h1>
                   <p className="text__para text-justify">
-
-                   
-Our AI healthcare website harnesses the power of artificial intelligence to revolutionize healthcare delivery. Through cutting-edge technology, we provide personalized and accessible medical 
-solutions, including symptom assessment, diagnostic support, treatment recommendations, and health monitoring. Our platform empowers patients with reliable information, connects them with healthcare providers, and enhances overall health outcomes. Experience the future of healthcare with our AI-driven platform.
-
+                    Our AI healthcare website harnesses the power of artificial
+                    intelligence to revolutionize healthcare delivery. Through
+                    cutting-edge technology, we provide personalized and
+                    accessible medical solutions, including symptom assessment,
+                    diagnostic support, treatment recommendations, and health
+                    monitoring. Our platform empowers patients with reliable
+                    information, connects them with healthcare providers, and
+                    enhances overall health outcomes. Experience the future of
+                    healthcare with our AI-driven platform.
                   </p>
-                  <button className='btn'> Request an Appointment</button>
-
+                
+                  <Link to='/doctors'>
+                  <button className="btn"> Request an Appointment  </button>
+                  </Link>
                 </div>
-
               </div>
               {/* hero_img */}
-              <div className='flex gap-[30px] justify-end'>
+              <div className="flex gap-[30px] justify-end">
                 <div>
                   <img className="w-full" src={hero1}></img>
                 </div>
                 <div>
-                  <img src={hero2} className="w-full mb-[30px]" ></img>
+                  <img src={hero2} className="w-full mb-[30px]"></img>
                   <img src={hero3} className="w-full"></img>
                 </div>
               </div>
-
-
             </div>
           </div>
 
           <section>
             <div className="h-[80px] w-[80px] bottom-0 animate-bounce ml-[50px] fixed mb-[50px] ">
-              <a href='https://mediafiles.botpress.cloud/250d0195-0d6e-4132-9c5e-ac69d54d78ca/webchat/bot.html'>
-                <img className="rounded-full" src={Bot}></img></a>
+              <a href="https://mediafiles.botpress.cloud/250d0195-0d6e-4132-9c5e-ac69d54d78ca/webchat/bot.html">
+                <img className="rounded-full" src={Bot}></img>
+              </a>
             </div>
           </section>
         </div>
@@ -74,9 +78,11 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
           <div className="lg:w-[470px]  mx-auto mt-9">
             <h2 className="text-3xl text-center font-bold ">
               Providing the best medical services
-
             </h2>
-            <p className="text_para text-center">World-class care for everyone. our health system offers unmatched , expert health care.</p>
+            <p className="text_para text-center">
+              World-class care for everyone. our health system offers unmatched
+              , expert health care.
+            </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap:5 lg:gap[30px] mt-[30px] lg:mt-[55px]">
             <div className="py-[30px] px-5 ">
@@ -85,9 +91,17 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
               </div>
 
               <div className="mt-[30px]">
-                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">Find a Doctor</h2>
-                <p className="text-[16px] leading-7 text-headingColor font-[400] mt-4 text-center ">World-class care for everyone. our health system offers unmatched , expert health care.</p>
-                <Link to='/doctors' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none" >
+                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
+                  Find a Doctor
+                </h2>
+                <p className="text-[16px] leading-7 text-headingColor font-[400] mt-4 text-center ">
+                  World-class care for everyone. our health system offers
+                  unmatched , expert health care.
+                </p>
+                <Link
+                  to="/doctors"
+                  className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none"
+                >
                   <BsArrowRight />
                 </Link>
               </div>
@@ -98,9 +112,17 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
               </div>
 
               <div className="mt-[30px]">
-                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">Find a Location</h2>
-                <p className="text-[16px] leading-7 text-headingColor font-[400] mt-4 text-center ">World-class care for everyone. our health system offers unmatched , expert health care.</p>
-                <Link to='/doctors' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none" >
+                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
+                  Find a Location
+                </h2>
+                <p className="text-[16px] leading-7 text-headingColor font-[400] mt-4 text-center ">
+                  World-class care for everyone. our health system offers
+                  unmatched , expert health care.
+                </p>
+                <Link
+                  to="/doctors"
+                  className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none"
+                >
                   <BsArrowRight />
                 </Link>
               </div>
@@ -111,9 +133,17 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
               </div>
 
               <div className="mt-[30px]">
-                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">Book Appointment</h2>
-                <p className="text-[16px] leading-7 text-headingColor font-[400] mt-4 text-center ">World-class care for everyone. our health system offers unmatched , expert health care.</p>
-                <Link to='/doctors' className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none" >
+                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
+                  Book Appointment
+                </h2>
+                <p className="text-[16px] leading-7 text-headingColor font-[400] mt-4 text-center ">
+                  World-class care for everyone. our health system offers
+                  unmatched , expert health care.
+                </p>
+                <Link
+                  to="/doctors"
+                  className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none"
+                >
                   <BsArrowRight />
                 </Link>
               </div>
@@ -129,9 +159,13 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
       <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto mt-[50px]">
-            <h2 className="text-3xl font-bold text-center ">Our Medical Service</h2>
-            <p className="text__para text-center" >World-class care for everyone. our health system offers unmatched, expert health care</p>
-
+            <h2 className="text-3xl font-bold text-center ">
+              Our Medical Service
+            </h2>
+            <p className="text__para text-center">
+              World-class care for everyone. our health system offers unmatched,
+              expert health care
+            </p>
           </div>
           <ServiceList />
         </div>
@@ -154,10 +188,11 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
                   2. Search the physician here , and contact their office.
                 </li>
                 <li className="text__para">
-                  3. View our Physician s who are accepting new patients. use the online scheduling tool to select an appointment time.
+                  3. View our Physician s who are accepting new patients. use
+                  the online scheduling tool to select an appointment time.
                 </li>
               </ul>
-              <Link to='/'>
+              <Link to="/">
                 <button className="btn">Learn More</button>
               </Link>
             </div>
@@ -175,19 +210,22 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
                       10:00Am
                     </p>
                   </div>
-                  <span className="bg-black w-10 h-10 lg-w-[34px] flex items-center justify-center  rounded py-1 px-[6px] lg:py-3 lg:px-[9px]" >
-                    <img src={videoicon} ></img>
+                  <span className="bg-black w-10 h-10 lg-w-[34px] flex items-center justify-center  rounded py-1 px-[6px] lg:py-3 lg:px-[9px]">
+                    <img src={videoicon}></img>
                   </span>
                 </div>
-                <div className="w-[65px] lg:w-[96px] bg-[#CCF0F3] py-1 px-2 lg:py-[6px] lg:px-[10px] text-[8px] leading-[8px] lg:text-[12px] lg:leading-4 text-irisBlueColor font-[500] mt-2 lg:mt-4 rounded-full">Consultation</div>
+                <div className="w-[65px] lg:w-[96px] bg-[#CCF0F3] py-1 px-2 lg:py-[6px] lg:px-[10px] text-[8px] leading-[8px] lg:text-[12px] lg:leading-4 text-irisBlueColor font-[500] mt-2 lg:mt-4 rounded-full">
+                  Consultation
+                </div>
                 <div className="flex items-center gap-[6px] lg:gap-[10px] mt-2 lg:mt-[18px] ">
                   <img src={pavatar}></img>
-                  <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">Wayne Collins</h4>
+                  <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">
+                    Wayne Collins
+                  </h4>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -195,12 +233,15 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
       <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto mt-[80px]">
-            <h2 className="text-3xl font-bold text-center ">Our Great Doctors</h2>
-            <p className="text__para text-center" >World-class care for everyone. our health system offers unmatched, expert health care</p>
-
+            <h2 className="text-3xl font-bold text-center ">
+              Our Great Doctors
+            </h2>
+            <p className="text__para text-center">
+              World-class care for everyone. our health system offers unmatched,
+              expert health care
+            </p>
           </div>
           <DoctorList />
-
         </div>
       </section>
 
@@ -212,7 +253,9 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
               <img src={faq}></img>
             </div>
             <div className="w-full md:w-1/2">
-              <h2 className="text-xl font-semibold ">Most Question by our beloved patients</h2>
+              <h2 className="text-xl font-semibold ">
+                Most Question by our beloved patients
+              </h2>
               <FaqList />
             </div>
           </div>
@@ -231,7 +274,7 @@ solutions, including symptom assessment, diagnostic support, treatment recommend
       {/* </div>
        </section> */}
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,0 +1,406 @@
+{
+    
+    "Cold, flu, allergies, asthma": [
+        "Stay hydrated",
+        "Use honey or over-the-counter cough syrup",
+        "Drink warm fluids like tea or broth",
+        "Use a humidifier or take a steamy shower",
+        "Avoid irritants like smoke or strong odors",
+        "Get plenty of rest"
+    ],
+    "Heart Attack": [
+        "Seek emergency medical help immediately",
+        "Chew aspirin if advised by a healthcare professional",
+        "Rest in a comfortable position",
+        "Avoid strenuous activity",
+        "Stay calm and try to relax"
+    ],
+    "Infection (e.g., flu, common cold)": [
+        "Rest",
+        "Stay hydrated",
+        "Take over-the-counter fever reducers like acetaminophen or ibuprofen",
+        "Use a cool compress",
+        "Wear lightweight clothing",
+        "Monitor temperature"
+      ],
+      "Arthritis, injury, overuse": [
+        "Apply ice or heat packs",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen",
+        "Rest the affected joint",
+        "Use assistive devices if necessary",
+        "Perform gentle exercises or stretches"
+      ],
+      "Asthma, pneumonia, anxiety, heart problems": [
+        "Sit upright",
+        "Use a fan or open a window for fresh air",
+        "Practice pursed lip breathing",
+        "Use a rescue inhaler if prescribed",
+        "Seek emergency medical help if severe"
+      ],
+      "Dehydration, inner ear problems, low blood pressure": [
+        "Sit or lie down in a safe place",
+        "Drink water or electrolyte drinks",
+        "Avoid sudden movements",
+        "Practice deep breathing exercises",
+        "Slowly change positions",
+        "Avoid alcohol and caffeine"
+      ],
+      "Stomach flu, food poisoning, motion sickness": [
+        "Drink clear fluids like water or ginger tea",
+        "Eat bland foods like crackers or toast",
+        "Avoid spicy or greasy foods",
+        "Rest in a comfortable position",
+        "Take over-the-counter anti-nausea medication if necessary"
+      ],
+      "Sleep deprivation, stress, anemia, depression": [
+        "Get adequate sleep",
+        "Maintain a balanced diet",
+        "Exercise regularly",
+        "Manage stress levels",
+        "Avoid caffeine and alcohol",
+        "Practice relaxation techniques"
+      ],
+      "Viral or bacterial infection": [
+        "Gargle with warm salt water",
+        "Drink plenty of fluids",
+        "Use throat lozenges or numbing sprays",
+        "Avoid irritants like smoking or polluted air",
+        "Rest"
+      ],
+      "Dehydration, tension, sinusitis, migraine": [
+        "Drink plenty of water",
+        "Practice relaxation techniques",
+        "Apply a cold or warm compress",
+        "Use over-the-counter pain relievers",
+        "Manage stress levels",
+        "Maintain good posture"
+      ],
+      "Indigestion, gastritis, gastroenteritis, constipation": [
+        "Eat small, bland meals",
+        "Avoid spicy, fatty, or acidic foods",
+        "Drink clear fluids and stay hydrated",
+        "Take over-the-counter antacids or anti-diarrheal medications if needed",
+        "Apply heat to the abdomen with a heating pad or warm towel",
+        "Rest and avoid strenuous activity"
+      ],
+      "Allergies, contact dermatitis, eczema, viral infections": [
+        "Apply a cold compress to soothe itching and inflammation",
+        "Use over-the-counter anti-itch creams or lotions",
+        "Take an oatmeal bath to relieve itching and dryness",
+        "Avoid scratching to prevent further irritation and infection",
+        "Wear loose, breathable clothing",
+        "Identify and avoid triggers that may be causing the rash"
+      ],
+      "Muscle strain, herniated disc, arthritis, poor posture": [
+        "Apply ice or heat packs to the affected area",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen",
+        "Practice gentle stretching and strengthening exercises",
+        "Use proper ergonomics and maintain good posture",
+        "Get regular exercise to strengthen the back muscles",
+        "Consider seeing a physical therapist for specialized treatment"
+      ],
+      "Low-fiber diet, dehydration, lack of physical activity, medication side effects": [
+        "Increase fiber intake with fruits, vegetables, and whole grains",
+        "Drink plenty of water and stay hydrated",
+        "Exercise regularly to promote bowel movement",
+        "Include probiotics in your diet to improve gut health",
+        "Try over-the-counter laxatives or stool softeners if necessary",
+        "Establish regular toilet habits and avoid delaying bowel movements"
+      ],
+      "Common cold, allergies, sinusitis, nasal irritation": [
+        "Stay hydrated by drinking plenty of fluids",
+        "Use saline nasal sprays or rinses to clear nasal passages",
+        "Apply warm compresses to the nose and sinuses",
+        "Take over-the-counter antihistamines or decongestants if allergies are the cause",
+        "Avoid irritants like smoke or strong odors",
+        "Get plenty of rest to support the immune system"
+      ],
+      "Cold weather, low humidity, excessive bathing, skin conditions": [
+        "Use a gentle, moisturizing soap",
+        "Apply moisturizer immediately after bathing",
+        "Use a humidifier to add moisture to the air",
+        "Avoid hot showers or baths and opt for lukewarm water instead",
+        "Drink plenty of water to hydrate the skin from within",
+        "Limit exposure to harsh chemicals and irritants"
+      ],
+      "Ear infection, sinus congestion, foreign object in the ear": [
+        "Apply a warm compress to the affected ear",
+        "Use over-the-counter pain relievers like ibuprofen or acetaminophen",
+        "Try over-the-counter ear drops to relieve pain and discomfort",
+        "Rest and avoid activities that may worsen the pain",
+        "Consult a doctor if the earache is severe or persists for more than a few days"
+      ],
+      "Conjunctivitis (pink eye), allergies, dry eyes, eye strain": [
+        "Apply a cold compress to reduce inflammation and soothe the eyes",
+        "Use over-the-counter artificial tears to lubricate dry eyes",
+        "Avoid rubbing or touching the eyes to prevent further irritation",
+        "Use allergy medications or eye drops if allergies are the cause",
+        "Take frequent breaks when using screens to reduce eye strain",
+        "Practice good hygiene and avoid sharing towels or eye makeup"
+      ],
+      "Tooth decay, gum disease, dental abscess, tooth fracture": [
+        "Rinse mouth with warm salt water to reduce pain and inflammation",
+        "Use over-the-counter pain relievers like ibuprofen or acetaminophen",
+        "Apply a cold compress to the outside of the mouth near the affected tooth",
+        "Avoid very hot or very cold foods that may worsen sensitivity",
+        "Maintain good oral hygiene by brushing and flossing regularly",
+        "Schedule a dental appointment for proper diagnosis and treatment"
+      ],
+      "Stress, anxiety, poor sleep habits, medical conditions": [
+        "Establish a regular sleep schedule and bedtime routine",
+        "Create a comfortable sleep environment that is dark, quiet, and cool",
+        "Limit exposure to screens and stimulating activities before bedtime",
+        "Practice relaxation techniques like deep breathing or meditation",
+        "Avoid caffeine, nicotine, and heavy meals close to bedtime",
+        "Consult a doctor if insomnia persists for more than a few weeks"
+      ],
+      "Stress, trauma, genetics, medical conditions": [
+        "Practice deep breathing exercises to help calm the mind",
+        "Engage in regular physical activity to reduce tension and stress",
+        "Try relaxation techniques like progressive muscle relaxation or yoga",
+        "Limit caffeine and alcohol intake, as they can exacerbate anxiety",
+        "Seek support from friends, family, or a therapist",
+        "Consider cognitive-behavioral therapy or medication if anxiety is severe"
+      ],
+      "Overeating, spicy or fatty foods, stress, gastritis": [
+        "Eat smaller, more frequent meals",
+        "Avoid spicy, fatty, or acidic foods that can trigger indigestion",
+        "Chew food slowly and thoroughly to aid digestion",
+        "Drink herbal teas like peppermint or ginger to soothe the stomach",
+        "Take over-the-counter antacids or acid reducers if necessary",
+        "Practice relaxation techniques to reduce stress and promote digestion"
+      ],
+      "Dehydration, muscle fatigue, electrolyte imbalance, poor circulation": [
+        "Stretch and massage the affected muscles to relieve tension",
+        "Apply heat or cold therapy to reduce pain and inflammation",
+        "Drink plenty of water and replenish electrolytes with sports drinks or coconut water",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen",
+        "Avoid strenuous activity that may exacerbate muscle cramps",
+        "Consider dietary supplements like magnesium or potassium if cramps are frequent"
+      ],
+      "Eating too quickly, drinking carbonated beverages, sudden temperature changes, excitement or stress": [
+        "Hold your breath for as long as possible",
+        "Drink a glass of cold water quickly",
+        "Gargle with ice water",
+        "Breathe into a paper bag to increase carbon dioxide levels",
+        "Apply pressure to the diaphragm by leaning forward",
+        "Sip on a glass of water with a paper towel draped over the top"
+      ],
+      "Inner ear problems, vestibular disorders, migraine, brain injury": [
+        "Sit or lie down in a safe and comfortable position",
+        "Avoid sudden movements or changes in position",
+        "Focus on a stationary object to help stabilize vision",
+        "Stay hydrated and maintain steady blood sugar levels",
+        "Practice deep breathing exercises to help calm the nervous system",
+        "Seek medical evaluation if vertigo is severe or persistent"
+      ],
+      "Gas, indigestion, constipation, overeating": [
+        "Avoid foods that are known to cause gas or bloating, such as beans, cabbage, and onions",
+        "Eat smaller, more frequent meals",
+        "Chew food slowly and thoroughly to aid digestion",
+        "Drink herbal teas like peppermint or chamomile to soothe the stomach",
+        "Take over-the-counter remedies like simethicone to reduce gas",
+        "Stay hydrated and engage in regular physical activity to promote regularity"
+      ],
+      "Acid reflux, spicy or fatty foods, overeating, lying down after eating": [
+        "Eat smaller, more frequent meals",
+        "Avoid trigger foods like spicy or acidic foods, caffeine, and alcohol",
+        "Chew gum to increase saliva production and neutralize stomach acid",
+        "Take over-the-counter antacids or acid reducers",
+        "Sit upright for at least 2 hours after eating to reduce reflux",
+        "Sleep with your head elevated to prevent nighttime heartburn"
+      ],
+      "Genetics, life events, trauma, chronic illness, neurotransmitter imbalance": [
+        "Engage in regular physical activity, even if it's just a short walk",
+        "Spend time outdoors in natural sunlight to boost mood",
+        "Establish a daily routine and set achievable goals",
+        "Maintain social connections and seek support from friends and family",
+        "Practice relaxation techniques such as deep breathing or meditation",
+        "Consider therapy or counseling to learn coping strategies and address underlying issues"
+      ],
+      "Lack of sleep, stress, poor diet, dehydration, medical conditions": [
+        "Ensure you're getting enough sleep each night",
+        "Eat a balanced diet rich in fruits, vegetables, and whole grains",
+        "Stay hydrated by drinking plenty of water throughout the day",
+        "Engage in regular physical activity to boost energy levels",
+        "Practice stress management techniques such as deep breathing or meditation",
+        "If fatigue persists, consult a healthcare professional for further evaluation"
+      ],
+      "Muscle strain, overuse, injury, tension, fibromyalgia": [
+        "Apply a cold compress or ice pack to the affected area to reduce swelling and pain",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen",
+        "Rest the affected muscle and avoid activities that worsen pain",
+        "Use heat therapy with a heating pad or warm bath to relax muscles and ease pain",
+        "Stretch gently to improve flexibility and reduce tension",
+        "Consider massage therapy or acupuncture for additional relief"
+      ],
+      "Work pressure, relationship issues, financial problems, health concerns": [
+        "Practice relaxation techniques such as deep breathing or progressive muscle relaxation",
+        "Engage in regular physical activity to reduce stress and improve mood",
+        "Maintain a healthy lifestyle with a balanced diet, adequate sleep, and regular exercise",
+        "Establish boundaries and prioritize tasks to manage time effectively",
+        "Seek social support from friends, family, or support groups",
+        "Consider professional help from a therapist or counselor if stress becomes overwhelming"
+      ],
+      "Dehydration, heat exposure, excessive sweating, diabetes, certain medications": [
+        "Drink plenty of water throughout the day to stay hydrated",
+        "Avoid excessive consumption of caffeine or alcohol, as they can dehydrate the body",
+        "Eat water-rich foods like fruits and vegetables",
+        "Carry a reusable water bottle with you to remind yourself to drink water regularly",
+        "Monitor your urine color and volume as indicators of hydration status",
+        "Seek medical attention if thirst is accompanied by other symptoms or persists despite adequate fluid intake"
+      ],
+      "Normal hunger signals, low blood sugar, dehydration, certain medications": [
+        "Eat balanced meals and snacks throughout the day to maintain steady blood sugar levels",
+        "Include protein, fiber, and healthy fats in your meals to promote satiety",
+        "Stay hydrated by drinking plenty of water, as thirst can sometimes be mistaken for hunger",
+        "Listen to your body's hunger cues and eat when you're truly hungry, not just out of habit or boredom",
+        "Keep healthy snacks on hand for when hunger strikes between meals",
+        "Avoid skipping meals, as it can lead to excessive hunger and overeating later"
+      ],
+      "Gastroesophageal reflux disease (GERD), acid reflux, certain medications": [
+        "Avoid trigger foods like spicy or acidic foods, caffeine, and alcohol",
+        "Eat smaller, more frequent meals to reduce acid reflux",
+        "Chew sugar-free gum to increase saliva production and neutralize acid in the mouth",
+        "Use over-the-counter antacids or acid reducers as directed",
+        "Sit upright for at least 2 hours after eating to reduce reflux",
+        "Sleep with your head elevated to prevent nighttime acid reflux"
+      ],
+      "Fatigue, lack of sleep, poor nutrition, dehydration, medical conditions": [
+        "Get plenty of rest and aim for at least 7-9 hours of sleep per night",
+        "Eat a balanced diet rich in fruits, vegetables, lean proteins, and whole grains",
+        "Stay hydrated by drinking plenty of water throughout the day",
+        "Engage in regular physical activity to improve strength and stamina",
+        "Take short breaks throughout the day to rest and recharge",
+        "If weakness persists or worsens, consult a healthcare professional for evaluation and treatment"
+      ],
+      "Pinched nerve, nerve damage, poor circulation, vitamin deficiency, medication side effects": [
+        "Change positions or move around to relieve pressure on the affected area",
+        "Massage the affected area gently to stimulate circulation",
+        "Try stretching exercises or yoga to improve flexibility and relieve tension",
+        "Apply a warm compress to the area to help relax muscles and reduce discomfort",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen if necessary",
+        "If numbness or tingling persists or worsens, consult a healthcare professional for evaluation"
+      ],
+      "Lack of sleep, medication side effects, sleep disorders, poor nutrition, dehydration": [
+        "Ensure you're getting enough sleep each night, aiming for 7-9 hours for most adults",
+        "Avoid caffeine and alcohol, especially close to bedtime",
+        "Establish a relaxing bedtime routine to signal to your body that it's time to sleep",
+        "Eat a balanced diet with plenty of fruits, vegetables, lean proteins, and whole grains",
+        "Stay hydrated by drinking plenty of water throughout the day",
+        "If drowsiness persists despite these measures, consult a healthcare professional for evaluation"
+      ],
+      "Cold weather, viral infection (common cold), flu, hypothyroidism, anemia": [
+        "Dress warmly in layers and wear a hat and gloves to retain body heat",
+        "Stay indoors during cold weather and avoid prolonged exposure to extreme temperatures",
+        "Drink warm beverages like tea or soup to help raise body temperature",
+        "Use blankets or a heating pad to stay warm while resting",
+        "Take over-the-counter medications like acetaminophen or ibuprofen to reduce fever and relieve symptoms",
+        "If cold symptoms persist or worsen, consult a healthcare professional for evaluation"
+      ],
+      "Injury, inflammation, infection, allergic reaction, fluid retention": [
+        "Apply a cold compress or ice pack to the affected area to reduce swelling and numb pain",
+        "Elevate the swollen area above the level of the heart to help reduce swelling",
+        "Rest the affected area and avoid putting weight on it if possible",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen to reduce pain and inflammation",
+        "Stay hydrated by drinking plenty of water to help flush out excess fluids",
+        "If swelling is severe or accompanied by other symptoms, seek medical attention"
+      ],
+      "Dry skin, insect bites, allergic reaction, dermatitis, eczema": [
+        "Apply a cold compress or ice pack to the itchy area to numb the skin and reduce itching",
+        "Take a cool bath or shower with mild soap to soothe irritated skin",
+        "Apply moisturizing lotions or creams to hydrate dry skin and relieve itching",
+        "Avoid scratching, as it can further irritate the skin and lead to infection",
+        "Take over-the-counter antihistamines or anti-itch creams if necessary",
+        "If itching persists or is severe, consult a healthcare professional for evaluation and treatment"
+      ],
+      "Inflammation, irritation, allergic reaction, infection, sunburn": [
+        "Apply a cold compress or ice pack to the affected area to reduce inflammation and numb pain",
+        "Take a cool bath or shower to soothe irritated skin",
+        "Apply aloe vera gel or moisturizing lotion to hydrate dry skin and promote healing",
+        "Avoid exposure to irritants like harsh chemicals or allergens",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen to reduce pain and inflammation",
+        "If redness persists or worsens, seek medical attention"
+      ],
+      "Injury, trauma, bleeding disorders, medication side effects": [
+        "Apply a cold compress or ice pack to the bruised area to reduce swelling and numb pain",
+        "Elevate the bruised area above the level of the heart to help reduce swelling",
+        "Rest the affected area and avoid putting weight on it if possible",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen to reduce pain and inflammation",
+        "Apply arnica gel or cream to promote healing and reduce bruising",
+        "If bruising is severe or accompanied by other symptoms, seek medical attention"
+      ],
+      "Anxiety, stress, caffeine, certain medications, medical conditions": [
+        "Practice relaxation techniques such as deep breathing or progressive muscle relaxation",
+        "Limit caffeine intake, especially if it tends to make you feel jittery or nervous",
+        "Engage in regular physical activity to reduce stress and improve mood",
+        "Maintain a balanced diet with plenty of fruits, vegetables, lean proteins, and whole grains",
+        "Seek support from friends, family, or a therapist if feelings of nervousness persist",
+        "Consider mindfulness meditation or yoga to help manage anxiety and promote relaxation"
+      ],
+      "Stress, frustration, anger, fatigue, environmental factors": [
+        "Take deep breaths and count to 10 to help calm yourself down",
+        "Remove yourself from the situation if possible and take a short break",
+        "Engage in physical activity or exercise to help release pent-up energy and reduce tension",
+        "Practice relaxation techniques such as deep breathing or progressive muscle relaxation",
+        "Express your feelings through journaling, talking to a trusted friend, or seeking professional help",
+        "Avoid triggers that may worsen irritability, such as loud noises or crowded spaces"
+      ],
+      "Panic disorder, anxiety, stress, traumatic event, medical conditions": [
+        "Practice deep breathing exercises to help calm your mind and body",
+        "Focus on grounding techniques, such as naming objects in your surroundings or touching a comforting object",
+        "Use positive self-talk to reassure yourself that the panic will pass",
+        "Engage in physical activity or exercise to release tension and adrenaline",
+        "Seek support from a trusted friend, family member, or mental health professional",
+        "Consider therapy or counseling to learn coping strategies and address underlying issues"
+      ],
+      "Unmet expectations, obstacles, perceived injustice, stress, fatigue": [
+        "Take a step back and assess the situation objectively",
+        "Identify the source of your frustration and break it down into manageable parts",
+        "Practice problem-solving techniques to find potential solutions",
+        "Engage in physical activity or exercise to release pent-up energy and reduce tension",
+        "Practice relaxation techniques such as deep breathing or progressive muscle relaxation",
+        "Seek support from friends, family, or a therapist if feelings of frustration persist"
+      ],
+      "Poor oral hygiene, certain foods, dry mouth, gum disease, medical conditions": [
+        "Brush your teeth and tongue thoroughly after meals and before bedtime",
+        "Floss between your teeth daily to remove food particles and plaque buildup",
+        "Use a tongue scraper to remove bacteria and debris from the surface of your tongue",
+        "Drink plenty of water throughout the day to keep your mouth hydrated and wash away food particles",
+        "Chew sugar-free gum or suck on sugar-free mints to stimulate saliva production and freshen breath",
+        "If bad breath persists despite these measures, consult a dentist or healthcare professional for evaluation"
+      ],
+      "Hormonal changes, nutrient deficiencies, emotional triggers, habits": [
+        "Identify the underlying cause of your cravings, such as stress, boredom, or hunger",
+        "Find healthy alternatives to satisfy cravings, such as fruit instead of sugary snacks",
+        "Eat balanced meals and snacks throughout the day to stabilize blood sugar levels",
+        "Stay hydrated by drinking plenty of water, as thirst can sometimes be mistaken for hunger",
+        "Practice mindful eating by paying attention to hunger and fullness cues",
+        "If cravings persist or are interfering with your health goals, consult a healthcare professional for guidance"
+      ],
+      "Muscle strain, overexertion, physical injury, inflammatory conditions": [
+        "Rest the affected area and avoid activities that worsen the pain",
+        "Apply ice packs or cold compresses to reduce inflammation and numb the pain",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen as directed",
+        "Gently massage the area to help relax tight muscles and improve blood flow",
+        "Use heat therapy with warm towels or heating pads to soothe sore muscles",
+        "Practice gentle stretching exercises to improve flexibility and relieve tension",
+        "Stay hydrated and maintain a balanced diet to support muscle recovery"
+      ],
+      "Various causes including injury, inflammation, tension, and underlying health conditions": [
+        "Rest and avoid activities that aggravate the pain",
+        "Apply ice packs or cold compresses to the affected area to reduce inflammation and numb the pain",
+        "Take over-the-counter pain relievers such as ibuprofen, acetaminophen, or aspirin as directed",
+        "Practice relaxation techniques such as deep breathing, meditation, or progressive muscle relaxation to reduce tension and promote pain relief",
+        "Use heat therapy with warm towels, heating pads, or warm baths/showers to relax muscles and relieve discomfort",
+        "Maintain good posture and ergonomics to prevent further strain on the affected area",
+        "Consider topical treatments such as creams or ointments containing menthol or capsaicin for localized pain relief",
+        "Stay hydrated and eat a balanced diet to support overall health and recovery"
+      ],
+      "error":[
+        "Symptom not found. Please consult a doctor."
+      ]
+  
+
+   
+}

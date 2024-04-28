@@ -1,4 +1,5 @@
-import React from 'react'
+
+// import React from 'react'
 import star from "../../assets/images/Star.png"
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from "react-icons/bs"
@@ -7,10 +8,10 @@ const DoctorCard = ({ doctor }) => {
     return (
         <div className="p-3 lg:p-5 ">
             <div>
-                <img src={photo} className="w-full rounded-md"></img>
+                <img src={photo} className="h-[300px] w-[300px] rounded-md"></img>
             </div>
             <h2 className="text-[18px leading-[30px] lg:text-[26px] lg:leading-9 text-headingColor font-[700] mt-3 lg:mt-5">{name}</h2>
-            <div className="mt-2 lg:mt-4 flex items-center justify-between" >
+            <div className="mt-2 lg:mt-4 flex items-center gap-[140px]" >
                 <span className="bg-[#CCF0F3] text-irisBlueColor py-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px]  rounded">{specialization}</span>
                 <div className="flex items-center gap-[6px]">
                     <span className="flex items-center gap-[6px] text-[14px] leading-6 lg:text-[16px] font-semibold ">
@@ -20,7 +21,7 @@ const DoctorCard = ({ doctor }) => {
                 </div>
 
             </div>
-            <div className="mt-[18px] lg:mt-5 flex items-center justify-between">
+            <div className="mt-[18px] lg:mt-5 flex items-center  ">
                 <div>
                     {/* <h3 className="text-[16px] leading-7 lg:text-[18px] lg:leading-[30px] font-semibold text-headingColor ">+{totalPatients} Patients</h3> */}
                     <p className="text-[16px] leading-6 font-[400] text-textColor">At {experiences && experiences[0]?.hospital}</p>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { doctors } from '../../assets/data/doctor'
+import { doctors } from '../../assets/data/doctor.js'
 import DoctorCard from './DoctorCard'
 import { BASE_URL } from '../../../config'
 import useFetchData from '../../hooks/useFetchData'

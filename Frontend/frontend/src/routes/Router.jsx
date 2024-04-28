@@ -1,8 +1,8 @@
-import React from 'react'
+// import React from 'react'
 import Home from "../pages/Home.jsx"
 import Login from "../pages/Login.jsx"
 import Services from "../pages/Services.jsx"
-import Contact from "../pages/Contact.jsx"
+import Contact from "../pages/SymptomChecker.jsx"
 import SignUp from "../pages/SignUp.jsx"
 import Doctor from "../pages/doctors/Doctors.jsx"
 import DoctorDetail from "../pages/doctors/DoctorDetail.jsx"
@@ -11,6 +11,7 @@ import DoctorDetail from "../pages/doctors/DoctorDetail.jsx"
 import {Routes, Route} from 'react-router-dom' 
  import DashBoard from '../Dashboard/doctor-account/DashBoard.jsx'
  import ProtectedRoute from './ProtectedRoute.jsx'
+ import Location from "../pages/Location.jsx"
 const Router = () => {
   return <Routes>
     <Route path='/' element={<Home/>}/>
@@ -19,7 +20,8 @@ const Router = () => {
     <Route path='/doctors/:id' element={<DoctorDetail/>}/>
     <Route path='/login' element={<Login/>}/>
     <Route path='/register' element={<SignUp/>}/>
-    <Route path='/contact' element={<Contact/>}/>
+    <Route path='/SymptomChecker' element={<Contact/>}/>
+    <Route path='/Location' element={<Location/>}/>
     <Route path='/services' element={<Services/>}/>
     <Route path='/checkout-success' element={<Success/>}/>
     <Route path='/users/profile/me' element={<ProtectedRoute allowedRoles={['patient']}><Myaacount/></ProtectedRoute>}/>

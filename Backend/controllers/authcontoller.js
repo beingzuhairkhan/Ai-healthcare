@@ -2,6 +2,7 @@ import User from "../models/UserSchema.js";
 import Doctor from "../models/DoctorSchema.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
+import UserSchema from "../models/UserSchema.js";
 
 const genrateToken = user => {
     return jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET_KEY, {
@@ -9,6 +10,7 @@ const genrateToken = user => {
     })
 
 }
+
 export const register = async (req, res) => {
     const { email, password, name, role, photo, gender } = req.body;
     try {
@@ -102,3 +104,32 @@ export const login = async (req, res) => {
         res.status(500).json({ success: false, message: "Failed to login" });
     }
 };
+
+// export const register = async (req, res) => {
+//     const { email, password, name, role, photo, gender } = req.body;
+//     try {
+//         let user = null; 
+//         user = await UserSchema.findOne({ email });
+//         if (user) {
+//             return res.status(400).json({ success: false, message: 'User already exists' });
+//         }
+//         const salt = await bcrypt.genSalt(10);
+//         const hashedPassword = await bcrypt.hash(password, salt);
+//         user = new Doctor({
+//             name,
+//             email,
+//             password: hashedPassword,
+//             photo,
+//             gender,
+//             role
+//         });
+
+        
+//         await user.save();
+
+//         res.status(200).json({ success: true, message: 'User successfully created' });
+//     } catch (err) {
+//         console.error(err);
+//         res.status(500).json({ success: false, message: 'Internal server error. Please try again' });
+//     }
+// };

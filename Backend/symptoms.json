@@ -1,6 +1,6 @@
 [   { "symptom": "Symptom Not Found", "condition": "Symptom Not Found" },
-    { "symptom": "I feel  pain", "condition": "Various causes including injury, inflammation, tension, and underlying health conditions" },
-    { "symptom": "I feel  cough ", "condition": "Cold, flu, allergies, asthma" },
+    { "symptom": "I feel pain", "condition": "Various causes including injury, inflammation, tension, and underlying health conditions" },
+    { "symptom": "I feel cough ", "condition": "Cold, flu, allergies, asthma" },
     { "symptom": "I feel Fever", "condition": "Infection (e.g., flu, common cold)" },
     { "symptom": "I feel Joint pain", "condition": "Arthritis, injury, overuse" },
     { "symptom": "I feel Shortness of breath", "condition": "Asthma, pneumonia, anxiety, heart problems" },
